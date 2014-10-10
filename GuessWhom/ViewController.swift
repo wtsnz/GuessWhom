@@ -13,10 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         
         
-        var loginView = FBLoginView()
-        loginView.center = self.view.center
-        self.view.addSubview(loginView)
-        
+//        var loginView = FBLoginView()
+//        loginView.center = self.view.center
+//        self.view.addSubview(loginView)
+//        
         
         super.viewDidLoad()
     }

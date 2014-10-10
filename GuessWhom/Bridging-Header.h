@@ -6,4 +6,4 @@
 //  Copyright (c) 2014 devhaus. All rights reserved.
 //
 
-#import <FacebookSDK/FacebookSDK.h>
+#import <Parse/Parse.h>

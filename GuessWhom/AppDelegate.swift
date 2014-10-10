@@ -17,6 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
         
+        Parse.setApplicationId("SkU5teeceLLWBiUjRvdH8KYSWKLsiXb1mssDTcmY", clientKey: "ZKmlGIzaG74k62Ac5OkaJjjRcDCkVJItDLdxIdnw")
+        
+        PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+        
+        
         // Override point for customization after application launch.
         return true
     }
@@ -44,11 +49,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     
-    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String, annotation: AnyObject?) -> Bool {
-        
-        return FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
-        
-    }
+//    func application(application: UIApplication, openURL url: NSURL, sourceApplication: String, annotation: AnyObject?) -> Bool {
+//        
+//        return FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+//        
+//    }
     
 
 }
