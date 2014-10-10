@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE1AA6F719E8A04E00D1169E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1AA6F619E8A04E00D1169E /* AppDelegate.swift */; };
+		BE1AA6F919E8A04E00D1169E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1AA6F819E8A04E00D1169E /* ViewController.swift */; };
+		BE1AA6FC19E8A04E00D1169E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA6FA19E8A04E00D1169E /* Main.storyboard */; };
+		BE1AA6FE19E8A04E00D1169E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA6FD19E8A04E00D1169E /* Images.xcassets */; };
+		BE1AA70119E8A04E00D1169E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA6FF19E8A04E00D1169E /* LaunchScreen.xib */; };
+		BE1AA70D19E8A04E00D1169E /* GuessWhomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1AA70C19E8A04E00D1169E /* GuessWhomTests.swift */; };
+		BE1AA87919E8A0FD00D1169E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA71719E8A0FD00D1169E /* Bolts.framework */; };
+		BE1AA87A19E8A0FD00D1169E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA71819E8A0FD00D1169E /* FacebookSDK.framework */; };
+		BE1AA87B19E8A0FD00D1169E /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA71A19E8A0FD00D1169E /* FBAudienceNetwork.framework */; };
+		BE1AA87C19E8A0FD00D1169E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA71B19E8A0FD00D1169E /* README.txt */; };
+		BE1AA89319E8A0FD00D1169E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA74519E8A0FD00D1169E /* LICENSE */; };
+		BE1AA89419E8A0FD00D1169E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA74619E8A0FD00D1169E /* README.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE1AA70719E8A04E00D1169E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE1AA6E919E8A04E00D1169E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE1AA6F019E8A04E00D1169E;
+			remoteInfo = GuessWhom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE1AA6F119E8A04E00D1169E /* GuessWhom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessWhom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1AA6F519E8A04E00D1169E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1AA6F619E8A04E00D1169E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1AA6F819E8A04E00D1169E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE1AA6FB19E8A04E00D1169E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1AA6FD19E8A04E00D1169E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BE1AA70019E8A04E00D1169E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BE1AA70619E8A04E00D1169E /* GuessWhomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GuessWhomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1AA70B19E8A04E00D1169E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1AA70C19E8A04E00D1169E /* GuessWhomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessWhomTests.swift; sourceTree = "<group>"; };
+		BE1AA71719E8A0FD00D1169E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BE1AA71819E8A0FD00D1169E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		BE1AA71A19E8A0FD00D1169E /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		BE1AA71B19E8A0FD00D1169E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		BE1AA74519E8A0FD00D1169E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE1AA74619E8A0FD00D1169E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		BE1AA97019E8A1EC00D1169E /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE1AA6EE19E8A04E00D1169E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1AA87B19E8A0FD00D1169E /* FBAudienceNetwork.framework in Frameworks */,
+				BE1AA87919E8A0FD00D1169E /* Bolts.framework in Frameworks */,
+				BE1AA87A19E8A0FD00D1169E /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1AA70319E8A04E00D1169E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE1AA6E819E8A04E00D1169E = {
+			isa = PBXGroup;
+			children = (
+				BE1AA6F319E8A04E00D1169E /* GuessWhom */,
+				BE1AA70919E8A04E00D1169E /* GuessWhomTests */,
+				BE1AA6F219E8A04E00D1169E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE1AA6F219E8A04E00D1169E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA6F119E8A04E00D1169E /* GuessWhom.app */,
+				BE1AA70619E8A04E00D1169E /* GuessWhomTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1AA6F319E8A04E00D1169E /* GuessWhom */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA71619E8A0FD00D1169E /* FacebookSDK */,
+				BE1AA6F619E8A04E00D1169E /* AppDelegate.swift */,
+				BE1AA6F819E8A04E00D1169E /* ViewController.swift */,
+				BE1AA6FA19E8A04E00D1169E /* Main.storyboard */,
+				BE1AA6FD19E8A04E00D1169E /* Images.xcassets */,
+				BE1AA6FF19E8A04E00D1169E /* LaunchScreen.xib */,
+				BE1AA6F419E8A04E00D1169E /* Supporting Files */,
+				BE1AA97019E8A1EC00D1169E /* Bridging-Header.h */,
+			);
+			path = GuessWhom;
+			sourceTree = "<group>";
+		};
+		BE1AA6F419E8A04E00D1169E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA6F519E8A04E00D1169E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1AA70919E8A04E00D1169E /* GuessWhomTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA70C19E8A04E00D1169E /* GuessWhomTests.swift */,
+				BE1AA70A19E8A04E00D1169E /* Supporting Files */,
+			);
+			path = GuessWhomTests;
+			sourceTree = "<group>";
+		};
+		BE1AA70A19E8A04E00D1169E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA70B19E8A04E00D1169E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BE1AA71619E8A0FD00D1169E /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA71719E8A0FD00D1169E /* Bolts.framework */,
+				BE1AA71819E8A0FD00D1169E /* FacebookSDK.framework */,
+				BE1AA71919E8A0FD00D1169E /* FBAudienceNetwork */,
+				BE1AA74519E8A0FD00D1169E /* LICENSE */,
+				BE1AA74619E8A0FD00D1169E /* README.txt */,
+			);
+			name = FacebookSDK;
+			path = ../../../../../Documents/FacebookSDK;
+			sourceTree = "<group>";
+		};
+		BE1AA71919E8A0FD00D1169E /* FBAudienceNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA71A19E8A0FD00D1169E /* FBAudienceNetwork.framework */,
+				BE1AA71B19E8A0FD00D1169E /* README.txt */,
+			);
+			path = FBAudienceNetwork;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE1AA6F019E8A04E00D1169E /* GuessWhom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1AA71019E8A04E00D1169E /* Build configuration list for PBXNativeTarget "GuessWhom" */;
+			buildPhases = (
+				BE1AA6ED19E8A04E00D1169E /* Sources */,
+				BE1AA6EE19E8A04E00D1169E /* Frameworks */,
+				BE1AA6EF19E8A04E00D1169E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GuessWhom;
+			productName = GuessWhom;
+			productReference = BE1AA6F119E8A04E00D1169E /* GuessWhom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE1AA70519E8A04E00D1169E /* GuessWhomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE1AA71319E8A04E00D1169E /* Build configuration list for PBXNativeTarget "GuessWhomTests" */;
+			buildPhases = (
+				BE1AA70219E8A04E00D1169E /* Sources */,
+				BE1AA70319E8A04E00D1169E /* Frameworks */,
+				BE1AA70419E8A04E00D1169E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE1AA70819E8A04E00D1169E /* PBXTargetDependency */,
+			);
+			name = GuessWhomTests;
+			productName = GuessWhomTests;
+			productReference = BE1AA70619E8A04E00D1169E /* GuessWhomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE1AA6E919E8A04E00D1169E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = devhaus;
+				TargetAttributes = {
+					BE1AA6F019E8A04E00D1169E = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					BE1AA70519E8A04E00D1169E = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = BE1AA6F019E8A04E00D1169E;
+					};
+				};
+			};
+			buildConfigurationList = BE1AA6EC19E8A04E00D1169E /* Build configuration list for PBXProject "GuessWhom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				he,
+			);
+			mainGroup = BE1AA6E819E8A04E00D1169E;
+			productRefGroup = BE1AA6F219E8A04E00D1169E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE1AA6F019E8A04E00D1169E /* GuessWhom */,
+				BE1AA70519E8A04E00D1169E /* GuessWhomTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE1AA6EF19E8A04E00D1169E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1AA6FC19E8A04E00D1169E /* Main.storyboard in Resources */,
+				BE1AA70119E8A04E00D1169E /* LaunchScreen.xib in Resources */,
+				BE1AA87C19E8A0FD00D1169E /* README.txt in Resources */,
+				BE1AA6FE19E8A04E00D1169E /* Images.xcassets in Resources */,
+				BE1AA89319E8A0FD00D1169E /* LICENSE in Resources */,
+				BE1AA89419E8A0FD00D1169E /* README.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1AA70419E8A04E00D1169E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE1AA6ED19E8A04E00D1169E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1AA6F919E8A04E00D1169E /* ViewController.swift in Sources */,
+				BE1AA6F719E8A04E00D1169E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1AA70219E8A04E00D1169E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE1AA70D19E8A04E00D1169E /* GuessWhomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE1AA70819E8A04E00D1169E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE1AA6F019E8A04E00D1169E /* GuessWhom */;
+			targetProxy = BE1AA70719E8A04E00D1169E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE1AA6FA19E8A04E00D1169E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1AA6FB19E8A04E00D1169E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1AA6FF19E8A04E00D1169E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1AA70019E8A04E00D1169E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE1AA70E19E8A04E00D1169E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE1AA70F19E8A04E00D1169E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE1AA71119E8A04E00D1169E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/will/Documents/FacebookSDK,
+					/Users/will/Documents/FacebookSDK/FBAudienceNetwork,
+				);
+				INFOPLIST_FILE = GuessWhom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GuessWhom/Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		BE1AA71219E8A04E00D1169E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/will/Documents/FacebookSDK,
+					/Users/will/Documents/FacebookSDK/FBAudienceNetwork,
+				);
+				INFOPLIST_FILE = GuessWhom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "GuessWhom/Bridging-Header.h";
+			};
+			name = Release;
+		};
+		BE1AA71419E8A04E00D1169E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessWhomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessWhom.app/GuessWhom";
+			};
+			name = Debug;
+		};
+		BE1AA71519E8A04E00D1169E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GuessWhomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GuessWhom.app/GuessWhom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE1AA6EC19E8A04E00D1169E /* Build configuration list for PBXProject "GuessWhom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1AA70E19E8A04E00D1169E /* Debug */,
+				BE1AA70F19E8A04E00D1169E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE1AA71019E8A04E00D1169E /* Build configuration list for PBXNativeTarget "GuessWhom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1AA71119E8A04E00D1169E /* Debug */,
+				BE1AA71219E8A04E00D1169E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BE1AA71319E8A04E00D1169E /* Build configuration list for PBXNativeTarget "GuessWhomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE1AA71419E8A04E00D1169E /* Debug */,
+				BE1AA71519E8A04E00D1169E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE1AA6E919E8A04E00D1169E /* Project object */;
+}
