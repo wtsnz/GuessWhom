@@ -14,7 +14,7 @@ protocol CommsDelegate {
 
 class Comms {
   class func login<T:CommsDelegate>(delegate: T) {
-    var permissionsArray = ["user_about_me", "user_relationships", "user_birthday", "user_location"]
+    var permissionsArray = ["user_about_me", "user_relationships", "user_birthday", "user_location", "user_friends"]
     PFFacebookUtils.logInWithPermissions(permissionsArray, block: { (user: PFUser!, error: NSError!) -> Void in
       if let test = user {
         if test.isNew {

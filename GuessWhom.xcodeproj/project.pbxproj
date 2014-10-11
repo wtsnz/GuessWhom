@@ -34,6 +34,8 @@
 		BE1AAB0219E8AD5500D1169E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA9A119E8AD5300D1169E /* README.txt */; };
 		BE1AAB1919E8AD5500D1169E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA9CB19E8AD5300D1169E /* LICENSE */; };
 		BE1AAB1A19E8AD5500D1169E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA9CC19E8AD5300D1169E /* README.txt */; };
+		CE309A9319E8E77E006A7B32 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE309A9219E8E77E006A7B32 /* DataStore.swift */; };
+		CE309A9519E8F0B3006A7B32 /* FriendListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE309A9419E8F0B3006A7B32 /* FriendListTableViewController.swift */; };
 		CEE8064019E8C0CD00A687D9 /* Comms.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE8063F19E8C0CD00A687D9 /* Comms.swift */; };
 /* End PBXBuildFile section */
 
@@ -80,6 +82,8 @@
 		BE1AA9A119E8AD5300D1169E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		BE1AA9CB19E8AD5300D1169E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		BE1AA9CC19E8AD5300D1169E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		CE309A9219E8E77E006A7B32 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		CE309A9419E8F0B3006A7B32 /* FriendListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendListTableViewController.swift; sourceTree = "<group>"; };
 		CEE8063F19E8C0CD00A687D9 /* Comms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comms.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,6 +154,8 @@
 				BE1AA6F419E8A04E00D1169E /* Supporting Files */,
 				BE1AA97019E8A1EC00D1169E /* Bridging-Header.h */,
 				CEE8063F19E8C0CD00A687D9 /* Comms.swift */,
+				CE309A9219E8E77E006A7B32 /* DataStore.swift */,
+				CE309A9419E8F0B3006A7B32 /* FriendListTableViewController.swift */,
 			);
 			path = GuessWhom;
 			sourceTree = "<group>";
@@ -328,7 +334,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE309A9519E8F0B3006A7B32 /* FriendListTableViewController.swift in Sources */,
 				CEE8064019E8C0CD00A687D9 /* Comms.swift in Sources */,
+				CE309A9319E8E77E006A7B32 /* DataStore.swift in Sources */,
 				BE1AA6F919E8A04E00D1169E /* ViewController.swift in Sources */,
 				BE1AA6F719E8A04E00D1169E /* AppDelegate.swift in Sources */,
 			);
