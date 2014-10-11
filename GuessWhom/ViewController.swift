@@ -16,7 +16,6 @@ class ViewController: UIViewController, CommsDelegate {
     //        var loginView = FBLoginView()
     //        loginView.center = self.view.center
     //        self.view.addSubview(loginView)
-    Comms.login(self)
     super.viewDidLoad()
   }
   
@@ -29,6 +28,11 @@ class ViewController: UIViewController, CommsDelegate {
   func commsDidLogin(loggedIn: Bool) {
     
   }
+  
+  @IBAction func loginButtonTouchHandler(sender: UIButton) {
+      Comms.login(self)
+  }
+  
   
 }
 
