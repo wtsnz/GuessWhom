@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, CommsDelegate {
 
     override func viewDidLoad() {
         
@@ -16,8 +16,7 @@ class ViewController: UIViewController {
 //        var loginView = FBLoginView()
 //        loginView.center = self.view.center
 //        self.view.addSubview(loginView)
-//        
-        
+        Comms.login(self)
         super.viewDidLoad()
     }
 
@@ -25,7 +24,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
+    // -- CommsDelegate
+    func commsDidLogin(loggedIn: Bool) {
+        
+    }
 
 }
 
