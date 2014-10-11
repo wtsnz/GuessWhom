@@ -126,6 +126,7 @@
 				BE1AA70919E8A04E00D1169E /* GuessWhomTests */,
 				BE1AA6F219E8A04E00D1169E /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
 		};
 		BE1AA6F219E8A04E00D1169E /* Products */ = {

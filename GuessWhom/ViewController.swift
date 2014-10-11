@@ -9,26 +9,26 @@
 import UIKit
 
 class ViewController: UIViewController, CommsDelegate {
-
-    override func viewDidLoad() {
-        
-        
-//        var loginView = FBLoginView()
-//        loginView.center = self.view.center
-//        self.view.addSubview(loginView)
-        Comms.login(self)
-        super.viewDidLoad()
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+  
+  override func viewDidLoad() {
     
-    // -- CommsDelegate
-    func commsDidLogin(loggedIn: Bool) {
-        
-    }
-
+    
+    //        var loginView = FBLoginView()
+    //        loginView.center = self.view.center
+    //        self.view.addSubview(loginView)
+    Comms.login(self)
+    super.viewDidLoad()
+  }
+  
+  override func didReceiveMemoryWarning() {
+    super.didReceiveMemoryWarning()
+    // Dispose of any resources that can be recreated.
+  }
+  
+  // -- CommsDelegate
+  func commsDidLogin(loggedIn: Bool) {
+    
+  }
+  
 }
 
