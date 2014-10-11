@@ -28,6 +28,12 @@
 		BE1AA99919E8A94300D1169E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA97C19E8A8E100D1169E /* CFNetwork.framework */; };
 		BE1AA99A19E8A94300D1169E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA97A19E8A8DB00D1169E /* AudioToolbox.framework */; };
 		BE1AA99B19E8A94300D1169E /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA97819E8A8D300D1169E /* Accounts.framework */; };
+		BE1AAAFF19E8AD5500D1169E /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA99D19E8AD5300D1169E /* Bolts.framework */; };
+		BE1AAB0019E8AD5500D1169E /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA99E19E8AD5300D1169E /* FacebookSDK.framework */; };
+		BE1AAB0119E8AD5500D1169E /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE1AA9A019E8AD5300D1169E /* FBAudienceNetwork.framework */; };
+		BE1AAB0219E8AD5500D1169E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA9A119E8AD5300D1169E /* README.txt */; };
+		BE1AAB1919E8AD5500D1169E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA9CB19E8AD5300D1169E /* LICENSE */; };
+		BE1AAB1A19E8AD5500D1169E /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = BE1AA9CC19E8AD5300D1169E /* README.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +73,12 @@
 		BE1AA98A19E8A90E00D1169E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		BE1AA98C19E8A91500D1169E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		BE1AA98E19E8A91C00D1169E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		BE1AA99D19E8AD5300D1169E /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		BE1AA99E19E8AD5300D1169E /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
+		BE1AA9A019E8AD5300D1169E /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		BE1AA9A119E8AD5300D1169E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		BE1AA9CB19E8AD5300D1169E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		BE1AA9CC19E8AD5300D1169E /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,13 +94,16 @@
 				BE1AA99519E8A94300D1169E /* MobileCoreServices.framework in Frameworks */,
 				BE1AA99619E8A94300D1169E /* libz.dylib in Frameworks */,
 				BE1AA99719E8A94300D1169E /* CoreLocation.framework in Frameworks */,
+				BE1AAB0019E8AD5500D1169E /* FacebookSDK.framework in Frameworks */,
 				BE1AA99819E8A94300D1169E /* CoreGraphics.framework in Frameworks */,
 				BE1AA99919E8A94300D1169E /* CFNetwork.framework in Frameworks */,
 				BE1AA99A19E8A94300D1169E /* AudioToolbox.framework in Frameworks */,
 				BE1AA99B19E8A94300D1169E /* Accounts.framework in Frameworks */,
 				BE1AA97619E8A83100D1169E /* Parse.framework in Frameworks */,
 				BE1AA97519E8A83100D1169E /* Bolts.framework in Frameworks */,
+				BE1AAB0119E8AD5500D1169E /* FBAudienceNetwork.framework in Frameworks */,
 				BE1AA97719E8A83100D1169E /* ParseFacebookUtils.framework in Frameworks */,
+				BE1AAAFF19E8AD5500D1169E /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,11 +190,34 @@
 		BE1AA97119E8A80800D1169E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE1AA99C19E8AD5300D1169E /* FacebookSDK */,
 				BE1AA97219E8A83100D1169E /* Bolts.framework */,
 				BE1AA97319E8A83100D1169E /* Parse.framework */,
 				BE1AA97419E8A83100D1169E /* ParseFacebookUtils.framework */,
 			);
 			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE1AA99C19E8AD5300D1169E /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA99D19E8AD5300D1169E /* Bolts.framework */,
+				BE1AA99E19E8AD5300D1169E /* FacebookSDK.framework */,
+				BE1AA99F19E8AD5300D1169E /* FBAudienceNetwork */,
+				BE1AA9CB19E8AD5300D1169E /* LICENSE */,
+				BE1AA9CC19E8AD5300D1169E /* README.txt */,
+			);
+			name = FacebookSDK;
+			path = ../../../../../../Documents/FacebookSDK;
+			sourceTree = "<group>";
+		};
+		BE1AA99F19E8AD5300D1169E /* FBAudienceNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				BE1AA9A019E8AD5300D1169E /* FBAudienceNetwork.framework */,
+				BE1AA9A119E8AD5300D1169E /* README.txt */,
+			);
+			path = FBAudienceNetwork;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +303,10 @@
 			files = (
 				BE1AA6FC19E8A04E00D1169E /* Main.storyboard in Resources */,
 				BE1AA70119E8A04E00D1169E /* LaunchScreen.xib in Resources */,
+				BE1AAB0219E8AD5500D1169E /* README.txt in Resources */,
 				BE1AA6FE19E8A04E00D1169E /* Images.xcassets in Resources */,
+				BE1AAB1919E8AD5500D1169E /* LICENSE in Resources */,
+				BE1AAB1A19E8AD5500D1169E /* README.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,8 +450,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/will/Documents/FacebookSDK,
-					/Users/will/Documents/FacebookSDK/FBAudienceNetwork,
+					"~/Documents/FacebookSDK",
+					"~/Documents/FacebookSDK/FBAudienceNetwork",
 					"$(PROJECT_DIR)/GuessWhom/Frameworks",
 				);
 				INFOPLIST_FILE = GuessWhom/Info.plist;
@@ -426,8 +467,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/will/Documents/FacebookSDK,
-					/Users/will/Documents/FacebookSDK/FBAudienceNetwork,
+					"~/Documents/FacebookSDK",
+					"~/Documents/FacebookSDK/FBAudienceNetwork",
 					"$(PROJECT_DIR)/GuessWhom/Frameworks",
 				);
 				INFOPLIST_FILE = GuessWhom/Info.plist;
